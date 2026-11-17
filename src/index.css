@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f7f4ed; /* Soft honey cream background */
+  color: #2c1f1d; /* Deep espresso text */
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Custom smooth scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ede7de;
+}
+::-webkit-scrollbar-thumb {
+  background: #b43b2d;
+  border-radius: 3px;
+}
